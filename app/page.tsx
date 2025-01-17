@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import About from "@/sections/About";
 import Projects from "@/sections/Projects";
@@ -12,6 +13,7 @@ export default function Home() {
         <title>My Portfolio</title>
       </Head>
       <main className="flex flex-col items-center">
+        <Header />
         <About />
         <Projects />
         <Resume />
