@@ -6,7 +6,7 @@ export default function Resume() {
       <Head>
         <title>Resume | My Portfolio</title>
       </Head>
-      <main className="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white">
+      <main className="flex flex-col items-center justify-center min-h-screen text-white">
         <h1 className="text-3xl font-bold">My Resume</h1>
         <section className="text-left mb-4">
           <h2>Summary</h2>
@@ -17,13 +17,16 @@ export default function Resume() {
           </p>
         </section>
         <section className="mb-4">
-          <h2>Proficiencies</h2>
-          <ul className="list-group list-group-flush">
+          <h2 className="text-center mb-4">Developer Skills</h2>
+          <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <li className="list-group-item">JavaScript</li>
             <li className="list-group-item">React</li>
             <li className="list-group-item">HTML/CSS</li>
             <li className="list-group-item">MERN Stack</li>
             <li className="list-group-item">SQL</li>
+            <li className="list-group-item">Mongo</li>
+            <li className="list-group-item">Cyber Security</li>
+            <li className="list-group-item">Next.JS</li>
           </ul>
         </section>
         <a

@@ -12,13 +12,14 @@ const Header: React.FC = () => {
 const headerStyle: React.CSSProperties = {
   textAlign: 'center',
   padding: '20px',
-  backgroundColor: '#f4f4f4',
+  marginTop: '100px',
+
 };
 
 const nameStyle: React.CSSProperties = {
   margin: '0',
   fontSize: '2.5em',
-  color: '#333',
+  color: '#999',
 };
 
 const positionStyle: React.CSSProperties = {
