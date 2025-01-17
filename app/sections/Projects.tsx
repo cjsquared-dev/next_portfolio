@@ -1,9 +1,10 @@
 import Head from "next/head";
+// import Image from "next/image";
 
 const projects = [
-  { title: "Candidate Search App", description: "Built with React & TypeScript", link: "#" },
-  { title: "Login API", description: "Node.js, Express, PostgreSQL", link: "#" },
-  { title: "Hostel Management", description: "Next.js, Tailwind CSS", link: "#" },
+  { title: 'Event Task Scheduler', description: 'Built with React & TypeScript', link: 'https://jacobbaqleh1.github.io/event-task-scheduler/' },
+  { title: 'Linkzen', description: 'A place for all your project links!', link: 'https://linkzen.onrender.com/' },
+  { title: 'Krazy Kanban Board', description: 'A Krazy KanbanBoard', link: 'https://krazy-kanbanboard.onrender.com/' },
 ];
 
 export default function Projects() {
