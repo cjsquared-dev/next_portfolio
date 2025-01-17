@@ -16,7 +16,7 @@ const iconContainerStyle = {
 
 export default function Footer() {
     return (
-      <footer className="p-4 text-center text-white" style={footerStyle}>
+      <footer className="p-4 text-center" style={footerStyle}>
                 <div style={iconContainerStyle}>
         <a href="https://github.com/cjsquared-dev" target="_blank" rel="noopener noreferrer">
                     <Image src={githubLogo} alt="Github Logo" className="footer-icon" />
@@ -25,7 +25,7 @@ export default function Footer() {
                     <Image src={linkedinLogo} alt="LinkedIn Logo" className="footer-icon" />
                 </a>
                 </div>
-                    <p>© 2024 Chris&apos;s Portfolio</p>
+                    <p>© 2024 CJSquared-Dev</p>
       </footer>
     );
   }

@@ -6,28 +6,35 @@ export default function Resume() {
       <Head>
         <title>Resume | My Portfolio</title>
       </Head>
-      <main className="flex flex-col items-center justify-center min-h-screen text-white">
-        <h1 className="text-3xl font-bold">My Resume</h1>
-        <section className="text-left mb-4">
-          <h2>Summary</h2>
+      <main className="flex flex-col items-center justify-center min-h-screen text-black">
+        <section className="text-left mb-4 py-8">
+          <h2 className="text-center py-8">Experience Summary</h2>
           <p>
-            Seasoned Cyber Security professional with a Master of Science in Information Systems from the University of Utah.
-            Currently working as a Senior Security Partner at Adobe, Inc. in Lehi, UT.
-            Currently studying Full Stack Web development to earn proficiencies in JavaScript, React, HTML/CSS, MERN Stack, and SQL to transition into a career in Software Engineering within the Security Industry.
+            I am a full stack developer with a passion for learning how to build web applications. I have experience with JavaScript, React, Node.js, and SQL. I am also experienced with cyber security and have experience with penetration testing.
           </p>
         </section>
-        <section className="mb-4">
+        <section className="mb-4 w-full py-8">
           <h2 className="text-center mb-4">Developer Skills</h2>
-          <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <li className="list-group-item">JavaScript</li>
-            <li className="list-group-item">React</li>
-            <li className="list-group-item">HTML/CSS</li>
-            <li className="list-group-item">MERN Stack</li>
-            <li className="list-group-item">SQL</li>
-            <li className="list-group-item">Mongo</li>
-            <li className="list-group-item">Cyber Security</li>
-            <li className="list-group-item">Next.JS</li>
-          </ul>
+          <div className="flex flex-col md:flex-row justify-center gap-4">
+            <div className="flex-1 p-4 border border-gray-300 rounded-lg">
+              <h3 className="text-center mb-2">Front-End Development</h3>
+              <ul className="list-disc list-inside">
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>HTML/CSS</li>
+                <li>Next.JS</li>
+              </ul>
+            </div>
+            <div className="flex-1 p-4 border border-gray-300 rounded-lg">
+              <h3 className="text-center mb-2">Back-End Development</h3>
+              <ul className="list-disc list-inside">
+                <li>Node.js</li>
+                <li>Express</li>
+                <li>SQL</li>
+                <li>MongoDB</li>
+              </ul>
+            </div>
+          </div>
         </section>
         <a
           href="/resume.pdf"

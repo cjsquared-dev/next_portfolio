@@ -3,12 +3,12 @@ import Image from 'next/image';
 export default function About() {
     return (
         <div className="container my-5 flex flex-col items-center">
-            <h2 className="mb-4 text-center">About Me</h2>
+
 
                 <Image
                     src="/images/Headshot.jpeg"
                     alt="Headshot"
-                    className='rounded-full mb-4'
+                    className='rounded-full mb-4 grayscale'
                     width={200}
                     height={200}
                     style={{ objectFit: "cover" }}

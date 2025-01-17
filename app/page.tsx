@@ -6,6 +6,7 @@ import Projects from "@/sections/Projects";
 import Resume from "@/sections/Resume";
 import Contact from "@/sections/Contact";
 
+
 export default function Home() {
   return (
     <>

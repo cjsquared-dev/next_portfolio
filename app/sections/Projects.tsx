@@ -12,8 +12,8 @@ export default function Projects() {
       <Head>
         <title>Projects | My Portfolio</title>
       </Head>
-      <main className="p-8 text-white">
-        <h1 className="text-3xl font-bold mb-6">My Projects</h1>
+      <main className="p-8">
+        <h1 className="text-3xl mb-6">My Projects</h1>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
           {projects.map((project, index) => (
             <div key={index} className="p-4 border border-gray-700 rounded-lg">
