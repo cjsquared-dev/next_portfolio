@@ -13,7 +13,7 @@ export default function Home() {
       <Head>
         <title>My Portfolio</title>
       </Head>
-      <main className="flex flex-col items-center">
+      <main className="flex flex-col items-center gradient-bg min-h-screen">
         <Header />
         <About />
         <Projects />
