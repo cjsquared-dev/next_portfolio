@@ -37,9 +37,13 @@ export default function Resume() {
           </div>
         </section>
         <a
-          href="/resume.pdf"
-          className="mt-4 px-6 py-3 bg-blue-600 rounded hover:bg-blue-500"
+          href="/assets/resume.pdf"
           download
+          className="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition duration-300"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Download Resume"
+          title="Download Resume"
         >
           Download Resume (PDF)
         </a>
