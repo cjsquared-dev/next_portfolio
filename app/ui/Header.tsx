@@ -2,30 +2,11 @@ import React from 'react';
 
 const Header: React.FC = () => {
   return (
-    <header style={headerStyle}>
-      <h1 style={nameStyle}>Chris Johnson</h1>
-      <h2 style={positionStyle}>Full Stack Web Developer</h2>
+    <header className="text-center py-8 bg-gradient-to-r from-indigo-500 via-purple-500 to-indigo-500 text-white">
+      <h1 className="text-5xl font-bold mb-2">Chris Johnson</h1>
+      <h2 className="text-2xl font-medium">Full Stack Web Developer</h2>
     </header>
   );
-};
-
-const headerStyle: React.CSSProperties = {
-  textAlign: 'center',
-  padding: '20px',
-  marginTop: '100px',
-
-};
-
-const nameStyle: React.CSSProperties = {
-  margin: '0',
-  fontSize: '2.5em',
-  color: '#999',
-};
-
-const positionStyle: React.CSSProperties = {
-  margin: '0',
-  fontSize: '1.5em',
-  color: '#777',
 };
 
 export default Header;
