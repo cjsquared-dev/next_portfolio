@@ -5,6 +5,7 @@ const projects = [
   { title: 'Event Task Manager', description: 'Built with React & TypeScript', link: 'https://task-manager-chi-pearl.vercel.app/', image: '/images/TaskManager.png' },
   { title: 'Linkzen', description: 'A place for all your project links!', link: 'https://linkzen.onrender.com/', image: '/images/linkzen.png' },
   { title: 'Krazy Kanban Board', description: 'A Krazy KanbanBoard', link: 'https://krazy-kanbanboard.onrender.com/', image: '/images/krazy.png' },
+  { title: 'Hostel Check-In System', description: 'A hostel check-in system built with React and NextJs', link: 'https://hostel-check-in.vercel.app/', image: '/images/hostel.png' },
 ];
 
 export default function Projects() {
